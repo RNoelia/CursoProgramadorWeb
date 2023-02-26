@@ -1,0 +1,15 @@
+.contacto{
+	border:1px solid #aaa;
+	background-color: rgb(233, 228, 228);
+	margin:0 auto;
+	width: 20%;
+	height: 500px;
+	position: relative;
+	border: 2px solid #000000;
+	box-shadow: -40px 13px 87px -32px rgba(0,0,0,0.75);
+-webkit-box-shadow: -40px 13px 87px -32px rgba(0,0,0,0.75);
+-moz-box-shadow: -40px 13px 87px -32px rgba(0,0,0,0.75);
+padding-left: 5%;
+padding-right: 5%;
+text-align: justify;
+	}
