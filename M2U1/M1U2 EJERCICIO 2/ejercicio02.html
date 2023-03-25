@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+	<h1>Contador de caracteres</h1>
+
+<form name="form_main">
+    
+    <label for="text">Texto:</label> <br>
+    <textarea name="text" id="text" cols="30" rows="10" oninput="countText()"></textarea><br>
+    <label for="characters">Caracteres: </label><span id="characters"></span><br>
+    <label for="words">Palabras: </label><span id="words"></span><br>
+    <label for="rows">Renglones: </label><span id="rows"></span><br>
+  
+
+  <script>
+	function countText() {
+  let text = document.form_main.text.value;
+  document.getElementById('characters').innerText = text.length;
+  document.getElementById('words').innerText = text.length == 0 ? 0 : text.split(/\s+/).length;
+  document.getElementById('rows').innerText = text.length == 0 ? 0 : text.split(/\n/).length;
+}
+ 
+ </script>
+</form>
+
+
+</body>
+</html>
