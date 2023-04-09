@@ -1,0 +1,18 @@
+font-family: 'Public Sans', sans-serif;
+
+.container-fluid{
+    height: 90%;
+    width: 100%;
+  
+   }
+   
+   .carousel-inner img {
+    
+      width: 200%;
+      max-height: 460px;
+  }
+  
+  .carousel-inner{
+   height: 460px;
+  }
+
